@@ -11,13 +11,14 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      //{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/png', href: '/favicon.png' }
     ],
     script: [
-      {
-        src: "https://code.jquery.com/jquery-3.3.1.slim.min.js",
-        type: "text/javascript"
-      },
+      // {
+      //   src: "https://code.jquery.com/jquery-3.3.1.slim.min.js",
+      //   type: "text/javascript"
+      // },
       {
         src: '/flowtype.js'
       },
@@ -69,13 +70,14 @@ export default {
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     vendor: ["jquery", "flowtype"],
-    plugins: [
-      new webpack.ProvidePlugin({
-        $: "jquery"
-      })
-    ],
+    // plugins: [
+    //   new webpack.ProvidePlugin({
+    //     $: "jquery"
+    //   })
+    // ],
   },
   server: {
-    host: '0.0.0.0'
+    host: '0.0.0.0',
+    port: 4000
   }
 }
