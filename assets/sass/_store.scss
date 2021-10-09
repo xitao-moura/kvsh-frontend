@@ -1,0 +1,44 @@
+.store {
+    background-color: #000;
+    padding-top: convEm(180px, $fzSm);
+    padding-bottom: convEm(100px, $fzSm);
+}
+
+h1 {
+    padding-bottom: convEm(60px, $fzSm);
+}
+
+.card {
+    max-width: 20rem;
+    border-radius: 0px;
+    padding: convEm(8px, $fzSm);
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-text {
+    text-align: center;
+    font-weight: 600;
+    font-size: convEm(20px, $fzSm);
+    line-height: 1.3;
+}
+
+.card.mb-2 {
+    margin: 0 auto;
+}
+
+p {
+    font-size: convEm(21.488px, $fzSm);
+}
+
+@media screen and (min-width: 1024px) {
+    .card-text {
+        font-size: convEm(12px, $fzSm);
+        line-height: 1.3;
+    }
+}

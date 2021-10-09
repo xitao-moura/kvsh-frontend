@@ -1,0 +1,103 @@
+.videos {
+    background-image: url('/bg-videos.jpg');
+    background-position: right !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding-top: convEm(70px, $fzSm);
+    padding-bottom: convEm(100px, $fzSm);
+    .bg-embed {
+        background-image: url('/bg-video-embed.png');
+        background-position: right !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        padding: convEm(25px, $fzSm) convEm(25px, $fzSm) convEm(25px, $fzSm) convEm(25px, $fzSm);
+        padding-right: convEm(100px, $fzSm);
+        border-radius: convEm(5px, $fzSm);
+        .embed-responsive::after {
+            background-image: url('/bg-video-embed-2.png');
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+        }
+    }
+    .lollapalooza{
+        width: 100%;
+        margin: 0 auto;
+        //float: right;
+        position: relative;
+        //margin-top: convEm(70px, $fzSm);
+        p {
+            font-family: 'Stretch Pro'; 
+            font-weight: normal; 
+            font-style: normal;
+            display: block;
+            color: white;
+            font-size: convEm(38px, $fzSm);
+            margin-bottom: 0px;
+            line-height: 0.6;
+            span {
+                margin-top: 0px;
+                font-size: convEm(18px, 38px);
+            }
+        }
+        .box {
+            background-color: #7d7d7d;
+            padding: convEm(8px, $fzSm) convEm(8px, $fzSm) convEm(8px, $fzSm) convEm(8px, $fzSm);
+            margin-top: convEm(18px, $fzSm);
+            margin-bottom: convEm(18px, $fzSm);
+            border-radius: convEm(2px, $fzSm);
+            //margin-right: convEm(10px, $fzSm);
+            .d1 {
+                float: left;
+                width: 80%;
+                padding-top: convEm(8px, $fzSm);
+                padding-left: convEm(10px, $fzSm);
+                p {
+                    font-size: convEm(20px, $fzSm);
+                    line-height: 0.9;
+                }
+            }
+            .d2 {
+                float: left;
+                width: 20%;
+                position: relative;
+                top: convEm(2px, $fzSm);
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .videos {
+        .lollapalooza{
+            p {
+                font-size: convEm(30px, $fzSm);
+            }
+            float: right;
+            position: relative;
+            margin-top: convEm(70px, $fzSm);
+            .box {
+                background-color: #7d7d7d;
+                padding: convEm(2px, $fzSm) convEm(8px, $fzSm) convEm(2px, $fzSm) convEm(8px, $fzSm);
+                margin-top: convEm(18px, $fzSm);
+                border-radius: convEm(2px, $fzSm);
+                margin-right: convEm(10px, $fzSm);
+                .d1 {
+                    float: left;
+                    width: 80%;
+                    padding-top: 8px;
+                    padding-left: 10px;
+                    p {
+                        font-size: convEm(12px, $fzSm);
+                    }
+                }
+                .d2 {
+                    float: left;
+                    width: 20%;
+                    position: relative;
+                    top: convEm(-3px, $fzSm);
+                }
+            }
+        }
+    }
+}

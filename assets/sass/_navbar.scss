@@ -1,0 +1,113 @@
+
+// .container {
+//   padding-right: 0px;
+//   padding-left: 0px;
+//   overflow: hidden;
+// }
+
+.navbar-nav {
+  margin-left: convEm(60px, $fzSm) !important;
+}
+
+.navbar.navbar-dark {
+    background: rgba(8, 8, 8, 0.9);
+    position: fixed;
+    width: 100%;
+    z-index: 888;
+}
+
+.navbar-expand-md .navbar-toggler {
+  display: block;
+}
+
+.navbar-expand-md .navbar-toggler {
+  display: block;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color:white!important
+}
+
+.navbar-expand-md .navbar-toggler {
+  border-color: transparent !important;
+}
+
+.navbar-logo {
+  padding-bottom: convEm(15px, $fzSm);
+  width: convEm(150px, $fzSm);
+}
+
+.navbar .sociais {
+  display: none;
+  width: 100%;
+  padding-top: convEm(50px, $fzSm);
+  ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      width: fit-content;
+      margin: 0 auto;
+      li {
+          float: left;
+          img {
+              width: convEm(40px, $fzSm);
+          }
+      }
+      li a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 15px;
+          text-decoration: none;
+      }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-nav {
+    margin-left: convEm(110px, $fzSm) !important;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar-logo {
+    padding-bottom: convEm(8px, $fzSm);
+    width: convEm(80px, $fzSm);
+  }
+
+  .navbar-nav {
+    margin-left: convEm(150px, $fzSm) !important;
+  }
+
+  .navbar .sociais {
+    display: block;
+    width: 100%;
+    padding-top: convEm(0px, $fzSm);
+    position: absolute;
+    top: convEm(16px, $fzSm);
+    right: convEm(50px, $fzSm);
+    width: convEm(375px, $fzSm);
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        width: fit-content;
+        margin: 0 auto;
+        li {
+            float: left;
+            img {
+                width: convEm(20px, $fzSm);
+            }
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            //padding: convEm(15px, $fzSm);
+            text-decoration: none;
+        }
+    }
+  }
+}

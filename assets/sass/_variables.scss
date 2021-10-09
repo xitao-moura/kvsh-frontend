@@ -1,0 +1,9 @@
+@use "sass:math";
+
+$largura_psd: 1280px;
+$altura_psd: 2627px;
+
+$fzLg: 37.1429px;
+$fzMd: math.div(($fzLg*992px),1200px);
+$fzSm: 21.9429px;
+$fzXs: 10px;

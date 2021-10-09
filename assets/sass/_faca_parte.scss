@@ -1,0 +1,94 @@
+.faca-parte {
+    background-color: #000;
+    padding-top: convEm(80px, $fzSm);
+    h1 {
+        padding-bottom: convEm(0px, $fzSm);
+        margin-left: convEm(20px, $fzSm);
+        margin-right: convEm(20px, $fzSm);
+    }
+
+    .input-group {
+        width: convEm(460px, $fzSm);
+        height: convEm(50px, $fzSm);
+        margin: 0 auto;
+        input {
+            border-radius: 0px;
+            height: convEm(50px, $fzSm);
+            background-color: #000;
+            border: convEm(1px, $fzSm) solid #fff;
+            box-sizing: border-box;
+        }
+        button {
+            border-radius: 0px;
+            background-color: #000;
+            border: convEm(1px, $fzSm) solid #fff;
+        }
+    }
+
+    .sociais {
+        width: 100%;
+        padding-top: convEm(50px, $fzSm);
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            width: fit-content;
+            margin: 0 auto;
+            li {
+                float: left;
+                img {
+                    width: convEm(40px, $fzSm);
+                }
+            }
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 15px;
+                text-decoration: none;
+            }
+        }
+    }
+
+    padding-bottom: convEm(50px, $fzSm);
+}
+
+@media screen and (max-width: 500px) {
+    .faca-parte {
+        .sociais {
+            width: 100%;
+            ul {
+                li {
+                    img {
+                        width: convEm(50px, $fzSm);
+                    }
+                }
+                li a {
+                    padding: convEm(5px, $fzSm);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .faca-parte {
+        .input-group {
+            width: convEm(690px, $fzSm);
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .faca-parte {
+        .input-group {
+            width: convEm(500px, $fzSm);
+            height: convEm(30px, $fzSm);
+            input {
+                height: convEm(70px, $fzSm) !important;
+            }
+        }
+    }
+}
+

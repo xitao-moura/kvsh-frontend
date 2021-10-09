@@ -1,0 +1,51 @@
+
+.ultimos-lancamentos {
+    background-color: #dddddd;
+    padding-top: convEm(60px, $fzSm);
+    &:after{
+        padding-bottom: convEm(200px, $fzSm);
+    }
+    h1 {
+        padding-bottom: convEm(40px, $fzSm);
+        margin-left: convEm(20px, $fzSm);
+        margin-right: convEm(20px, $fzSm);
+    }
+    .destaque {
+        width: convEm(650px, $fzSm);
+        margin-right: convEm(-35px, $fzSm) !important;
+        padding-bottom: convEm(180px, $fzSm);
+    }
+    .carousel-background {
+        background-color: #fff;
+    }
+    .carousel-lancamentos {
+        position: relative;
+        top: convEm(-60px, $fzSm);
+    }
+    .card.mb-2 {
+        padding: convEm(5px, $fzSm);
+        border: convEm(0px, $fzSm);
+    }
+    .card-body {
+        padding: convEm(0px, $fzSm);
+    }
+    .card-text {
+        padding-top: convEm(20px, $fzSm);
+        font-size: convEm(14px, $fzSm);
+        font-weight: 600;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .ultimos-lancamentos {
+        .card-text {
+            font-size: convEm(8.999px, $fzSm);
+            line-height: 1.3;
+        }
+
+        .carousel-lancamentos {
+            top: convEm(-40px, $fzSm);
+        }
+    }
+}
