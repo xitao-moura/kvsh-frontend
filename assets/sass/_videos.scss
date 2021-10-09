@@ -70,16 +70,17 @@
 @media screen and (min-width: 1024px) {
     .videos {
         .lollapalooza{
+            width: convEm(400px, 39.68px);
             p {
-                font-size: convEm(30px, $fzSm);
+                font-size: convEm(43px, 39.68px);
             }
             float: right;
             position: relative;
-            margin-top: convEm(70px, $fzSm);
+            margin-top: convEm(150px, 39.68px);
             .box {
                 background-color: #7d7d7d;
                 padding: convEm(2px, $fzSm) convEm(8px, $fzSm) convEm(2px, $fzSm) convEm(8px, $fzSm);
-                margin-top: convEm(18px, $fzSm);
+                margin-top: convEm(25px, $fzSm);
                 border-radius: convEm(2px, $fzSm);
                 margin-right: convEm(10px, $fzSm);
                 .d1 {
