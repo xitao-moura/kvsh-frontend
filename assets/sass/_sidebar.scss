@@ -56,7 +56,7 @@
                     display: block;
                     color: white;
                     text-align: center;
-                    padding: 15px;
+                    padding: convEm(15px, $fzSm);
                     text-decoration: none;
                 }
             }
@@ -89,7 +89,8 @@
         .b-sidebar-body {
             ul {
                 li a {
-                    padding: convEm(12px, $fzSm);
+                    padding: convEm(8px, 25px);
+                    font-size: 25px;
                 }
             }
         }
