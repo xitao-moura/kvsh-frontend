@@ -1,0 +1,101 @@
+.tour {
+    height: convEm(570px, $fzSm);
+    background-color: #35f8b3;
+    padding-top: convEm(100px, $fzSm);
+    padding-bottom: convEm(100px, $fzSm);
+    h1 {
+        margin-bottom: 0px;
+        font-size: convEm(40px, $fzSm);
+        color: #000;
+        margin-bottom: convEm(30px, 40px);
+    }
+    .box {
+        position: relative;
+        margin-bottom: convEm(80px, $fzSm);
+        z-index: 1;
+        &::before {
+            content: "";
+            position: absolute;
+            display: block;
+            background-color: #fff;
+            height: convEm(93px, 31.1576px);
+            left: convEm(65px, 31.1576px);
+            bottom: convEm(30px, 31.1576px);
+            width: convEm(400px, 31.1576px);
+            z-index: -1;
+        }
+        h2 {
+            font-size: convEm(100px, 35.024px);
+            -webkit-text-stroke: convEm(2px, 100px) #f20472;
+            color: transparent;
+            font-family: 'Stretch Pro'; 
+            font-weight: normal; 
+            font-style: normal;
+            text-align: center;
+            margin-bottom: 0px;
+            line-height: 0.9;
+        }
+        p {
+            color: #000;
+            font-family: 'Stretch Pro'; 
+            font-weight: normal; 
+            font-style: normal;
+            text-align: center;
+            margin-top: 0px;
+            font-size: 14px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .tour {
+        height: convEm(930px, $fzSm);
+        h1 {
+            font-size: convEm(30px, $fzSm);
+        }
+        .box {
+            &::before {
+                content: "";
+                position: absolute;
+                display: block;
+                background-color: #fff;
+                left: 0; 
+                right: 0; 
+                margin-left: auto; 
+                margin-right: auto; 
+                bottom: convEm(23px, 21.472px);
+                width: convEm(280px, 21.472px);
+                z-index: -1;
+            }
+            h2 {
+                text-align: center;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .tour {
+        height: convEm(550px, $fzSm);
+        h1 {
+            font-size: convEm(30px, $fzSm);
+        }
+        .box {
+            &::before {
+                content: "";
+                position: absolute;
+                display: block;
+                background-color: #fff;
+                //height: convEm(100px, 35.024px);
+                //left: convEm(60px, 35.024px);
+                left: 0; 
+                right: 0; 
+                margin-left: auto; 
+                margin-right: auto; 
+                bottom: convEm(23px, 35.024px);
+                width: convEm(450px, 35.024px);
+                z-index: -1;
+            }
+        }
+    }
+}

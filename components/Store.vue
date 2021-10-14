@@ -2,7 +2,8 @@
     <div class="store" id="store">
         <b-container>
             <h1>
-                <b-img center fluid src="Store.png"></b-img>
+                <!-- <b-img center fluid src="Store.png"></b-img> -->
+                SStore
             </h1>
             <div class="carousel">
                 <swiper :options="SwiperOptions" :breakpoints="SwiperOptions.breakpoints" :navigation="true" class="mySwiper">

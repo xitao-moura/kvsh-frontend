@@ -1,11 +1,18 @@
 .store {
     background-color: #000;
-    padding-top: convEm(180px, $fzSm);
+    padding-top: convEm(120px, $fzSm);
     padding-bottom: convEm(100px, $fzSm);
 }
 
 h1 {
-    padding-bottom: convEm(60px, $fzSm);
+    padding-bottom: convEm(10px, $fzSm);
+    font-family: 'Stretch Pro'; 
+    font-weight: normal; 
+    font-style: normal;
+    display: block;
+    color: white;
+    font-size: convEm(50px, $fzSm);
+    text-align: center;
 }
 
 .card {

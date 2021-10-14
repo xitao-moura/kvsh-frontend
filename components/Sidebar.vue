@@ -11,6 +11,9 @@
             <nuxt-link :to="{path: '/', hash: '#store'}" >STORE</nuxt-link>
           </li>
           <li>
+            <nuxt-link :to="{path: '/', hash: '#bio'}" >BIO</nuxt-link>
+          </li>
+          <li>
             <nuxt-link :to="{path: '/', hash: '#lancamentos'}" >ÚLTIMOS LANÇAMENTOS</nuxt-link>
           </li>
           <li>

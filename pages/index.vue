@@ -1,6 +1,8 @@
 <template>
   <div>
     <Store/>
+    <Bio/>
+    <Shows/>
     <Lancamentos/>
     <Videos/>
     <FacaParte/>

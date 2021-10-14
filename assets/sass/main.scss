@@ -1,4 +1,10 @@
-
+body {
+    background-color: #000;
+    .container-fluid {
+        overflow-x: hidden;
+        //overflow: hidden;
+    }
+}
 
 @import "mixins";
 @import "variables";
@@ -6,6 +12,8 @@
 @import "carousel";
 @import "navbar";
 @import "sidebar";
+@import "bio";
+@import "shows";
 @import "store";
 @import "lancamentos";
 @import "videos";

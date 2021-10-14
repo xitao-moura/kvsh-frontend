@@ -51,6 +51,15 @@
         }
     }
 
+    button {
+        font-family: 'Stretch Pro'; 
+        font-weight: normal; 
+        font-style: normal;
+        display: block;
+        color: white;
+        font-size: convEm(10px, $fzSm);
+    }
+
     padding-bottom: convEm(50px, $fzSm);
 }
 
