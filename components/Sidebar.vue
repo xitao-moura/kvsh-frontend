@@ -53,7 +53,7 @@ export default {
             this.sociais = this.sociais.data
         },
         getImage(img){
-            return `http://localhost:4001${img}`
+            return `https://kvsh-api.musiclounge.com.br${img}`
         }
     },
     mounted(){

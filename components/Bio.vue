@@ -33,7 +33,7 @@
             },
             getImage(img){
                 //console.log(img.url)
-                return `http://localhost:4001/uploads/kvsh_bio_f4fd9161a8.jpg`
+                return `https://kvsh-api.musiclounge.com.br/uploads/kvsh_bio_f4fd9161a8.jpg`
             }
         },
         mounted(){

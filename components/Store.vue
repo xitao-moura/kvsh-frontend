@@ -58,7 +58,7 @@ export default {
             this.stores = await this.$api.get('stores')
         },
         getImage(img){
-            return `http://localhost:4001${img}`
+            return `https://kvsh-api.musiclounge.com.br${img}`
         }
     },
     mounted(){

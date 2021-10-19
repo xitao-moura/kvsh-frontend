@@ -1,7 +1,7 @@
 <template>
     <div class="carousel">
         <swiper ref="mySwiper" class="carousel-telao">
-            <swiper-slide v-for="slider in sliders.data" :key="slider.id" :style="{ background: `url(http://localhost:4001${slider.imagem.url})` }"></swiper-slide>
+            <swiper-slide v-for="slider in sliders.data" :key="slider.id" :style="{ background: `url(https://kvsh-api.musiclounge.com.br${slider.imagem.url})` }"></swiper-slide>
         </swiper>
     </div>
 </template>
