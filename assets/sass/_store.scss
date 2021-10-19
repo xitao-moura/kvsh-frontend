@@ -43,6 +43,15 @@ p {
     font-size: convEm(21.488px, $fzSm);
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+    &:hover {
+        text-decoration: none;
+        color: #000;
+    }
+}
+
 @media screen and (min-width: 1024px) {
     .card-text {
         font-size: convEm(12px, $fzSm);

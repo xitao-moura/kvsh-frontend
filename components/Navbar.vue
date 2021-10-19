@@ -23,34 +23,9 @@
 
             <div class="sociais d-sm-none d-xl-block">
               <ul>
-                <li>
-                    <a href="">
-                        <b-img-lazy center src="social/instagram.png"></b-img-lazy>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <b-img-lazy center src="social/youtube.png"></b-img-lazy>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <b-img-lazy center src="social/tiktok.png"></b-img-lazy>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <b-img-lazy center src="social/facebook.png"></b-img-lazy>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <b-img-lazy center src="social/spotify.png"></b-img-lazy>
-                    </a>
-                </li>
-                <li>
-                    <a href="">
-                        <b-img-lazy center src="social/soundcloud.png"></b-img-lazy>
+                <li v-for="social in sociais.socialNetworks" :key="social.id">
+                    <a :href="social.url" target="_blank">
+                        <b-img-lazy center :src="getImage(social.icon.url)"></b-img-lazy>
                     </a>
                 </li>
             </ul>
@@ -63,6 +38,22 @@
 </template>
 <script>
 export default {
-  
+    data(){
+    return {
+      sociais: []
+    }
+  },
+    methods: {
+        async getSociais(){
+            this.sociais = await this.$api.get('global')
+            this.sociais = this.sociais.data
+        },
+        getImage(img){
+            return `http://localhost:4001${img}`
+        }
+    },
+    mounted(){
+        this.getSociais()
+    }
 }
 </script>

@@ -7,47 +7,21 @@
             </h1>
             <div class="carousel">
                 <swiper :options="SwiperOptions" :breakpoints="SwiperOptions.breakpoints" :navigation="true" class="mySwiper">
-                    <swiper-slide>
-                        <b-card
-                            img-src="/store/store-1.jpg"
-                            img-alt="Image"
-                            img-top
-                            tag="article"
-                            style="max-width: 20rem;"
-                            class="mb-2"
-                        >
-                            <b-card-text>
-                                Camiseta Save You Now Nephew x KVSH
-                            </b-card-text>
-                        </b-card>
-                    </swiper-slide>
-                    <swiper-slide>
-                        <b-card
-                            img-src="/store/store-2.jpg"
-                            img-alt="Image"
-                            img-top
-                            tag="article"
-                            style="max-width: 20rem;"
-                            class="mb-2"
-                        >
-                            <b-card-text>
-                                Camiseta Steal Your Love Nephew x KVSH
-                            </b-card-text>
-                        </b-card>
-                    </swiper-slide>
-                    <swiper-slide>
-                        <b-card
-                            img-src="/store/store-3.jpg"
-                            img-alt="Image"
-                            img-top
-                            tag="article"
-                            style="max-width: 20rem;"
-                            class="mb-2"
-                        >
-                            <b-card-text>
-                                Calça de Moletom Steal Your Love Nephew x KVSH
-                            </b-card-text>
-                        </b-card>
+                    <swiper-slide v-for="store in stores.data" :key="store.id">
+                        <a href="">
+                            <b-card
+                                :img-src="getImage(store.imagem.url)"
+                                img-alt="Image"
+                                img-top
+                                tag="article"
+                                style="max-width: 20rem;"
+                                class="mb-2"
+                            >
+                                <b-card-text>
+                                    {{ store.descricao }}
+                                </b-card-text>
+                            </b-card>
+                        </a>
                     </swiper-slide>
                 </swiper>
             </div>
@@ -75,8 +49,20 @@ export default {
                 slidesPerView: 1
             }
         }
-      }
+      },
+      stores: []
     }
-  }
+  },
+    methods: {
+        async getStores(){
+            this.stores = await this.$api.get('stores')
+        },
+        getImage(img){
+            return `http://localhost:4001${img}`
+        }
+    },
+    mounted(){
+        this.getStores()
+    }
 }
 </script>

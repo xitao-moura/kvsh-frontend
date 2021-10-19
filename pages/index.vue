@@ -2,7 +2,7 @@
   <div>
     <Store/>
     <Bio/>
-    <Shows/>
+    <Tours/>
     <Lancamentos/>
     <Videos/>
     <FacaParte/>
