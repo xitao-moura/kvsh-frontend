@@ -8,10 +8,10 @@
             <div class="carousel">
                 <swiper :options="SwiperOptions" :breakpoints="SwiperOptions.breakpoints" :navigation="true" class="mySwiper">
                     <swiper-slide v-for="store in stores.data" :key="store.id">
-                        <a href="">
+                        <a :href="store.url" target="_blank">
                             <b-card
                                 :img-src="getImage(store.imagem.url)"
-                                img-alt="Image"
+                                img-alt="store.descricao"
                                 img-top
                                 tag="article"
                                 style="max-width: 20rem;"
