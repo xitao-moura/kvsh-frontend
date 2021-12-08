@@ -11,7 +11,7 @@
                         <a :href="store.url" target="_blank">
                             <b-card
                                 :img-src="getImage(store.imagem.url)"
-                                img-alt="store.descricao"
+                                :img-alt="store.descricao"
                                 img-top
                                 tag="article"
                                 style="max-width: 20rem;"

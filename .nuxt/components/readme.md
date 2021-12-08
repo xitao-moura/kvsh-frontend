@@ -1,0 +1,18 @@
+# Discovered Components
+
+This is an auto-generated list of components discovered by [nuxt/components](https://github.com/nuxt/components).
+
+You can directly use them in pages and other components without the need to import them.
+
+**Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
+
+- `<Bio>` | `<bio>` (components/Bio.vue)
+- `<Carousel>` | `<carousel>` (components/Carousel.vue)
+- `<Contato>` | `<contato>` (components/Contato.vue)
+- `<FacaParte>` | `<faca-parte>` (components/FacaParte.vue)
+- `<Lancamentos>` | `<lancamentos>` (components/Lancamentos.vue)
+- `<Navbar>` | `<navbar>` (components/Navbar.vue)
+- `<Sidebar>` | `<sidebar>` (components/Sidebar.vue)
+- `<Store>` | `<store>` (components/Store.vue)
+- `<Tours>` | `<tours>` (components/Tours.vue)
+- `<Videos>` | `<videos>` (components/Videos.vue)

@@ -1,0 +1,32 @@
+{
+  "Bio": {
+    "description": "Auto imported from components/Bio.vue"
+  },
+  "Carousel": {
+    "description": "Auto imported from components/Carousel.vue"
+  },
+  "Contato": {
+    "description": "Auto imported from components/Contato.vue"
+  },
+  "FacaParte": {
+    "description": "Auto imported from components/FacaParte.vue"
+  },
+  "Lancamentos": {
+    "description": "Auto imported from components/Lancamentos.vue"
+  },
+  "Navbar": {
+    "description": "Auto imported from components/Navbar.vue"
+  },
+  "Sidebar": {
+    "description": "Auto imported from components/Sidebar.vue"
+  },
+  "Store": {
+    "description": "Auto imported from components/Store.vue"
+  },
+  "Tours": {
+    "description": "Auto imported from components/Tours.vue"
+  },
+  "Videos": {
+    "description": "Auto imported from components/Videos.vue"
+  }
+}

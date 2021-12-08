@@ -13,6 +13,8 @@
 </template>
 <script>
 import { format } from 'date-fns'
+import addDays from 'date-fns/addDays'
+import addHours from 'date-fns/addHours'
 export default {
     data(){
     return {
@@ -25,10 +27,13 @@ export default {
             this.tours = this.tours.data
         },
         dateFormat(date){
-            return format(new Date(date), 'dd/MM')
+            date = addDays(new Date(date), 1)
+            return format(date, 'dd/MM')
+            
         },
         hourFormat(date){
-            return format(new Date(date), 'HH')
+            date = addHours(new Date(date), 1)
+            return format(date, 'HH')
         }
     },
     mounted(){
