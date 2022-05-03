@@ -8,6 +8,12 @@
             <nuxt-link :to="{path: '/', hash: '#home'}" >HOME</nuxt-link>
           </li>
           <li>
+            <nuxt-link :to="{path: 'about'}" >ABOUT</nuxt-link>
+          </li>
+          <li>
+            <nuxt-link :to="{path: 'tracks'}" >TRACKS</nuxt-link>
+          </li>
+          <li>
             <nuxt-link :to="{path: '/', hash: '#store'}" >STORE</nuxt-link>
           </li>
           <li>

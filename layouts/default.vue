@@ -2,7 +2,6 @@
     <b-container fluid>
         <Navbar/>
         <Sidebar/>
-        <Carousel/>
         <Nuxt />
     </b-container>
 </template>

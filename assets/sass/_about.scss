@@ -1,0 +1,80 @@
+.about {
+    .topo {
+        background-image: url('/foto.jpg');
+        background-position: center !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        //padding-top: convEm(70px, $fzSm);
+        //padding-bottom: convEm(100px, $fzSm);
+        width: 100%;
+        height: 90vh;
+        
+    }
+    .mask {
+        background: rgb(2,0,36);
+        background: -moz-linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 99%);
+        background: -webkit-linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 99%);
+        background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 99%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#ffffff",GradientType=1);
+    }
+    .titulo {
+        z-index: 99999999;
+        font-family: "Stretch Pro";
+        line-height: 1; 
+        width: 60%;
+        margin: 0 auto;
+        font-size: convEm(30px, $fzSm);
+        text-align: center;
+        color: #fff;
+        background-color: #000;
+        padding: convEm(40px, 30px) 0px convEm(40px, 30px) 0px;
+        margin-bottom: convEm(-30px, 30px);
+        position: relative;
+        top: convEm(-80px, 30px);
+    }
+    .conteudo {
+        line-height: 1.2;
+        font-family: 'Montserrat';
+        font-weight: 600;
+        font-size: 36px;
+        background-color: #fff;
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .about {
+        .topo {
+            background-image: url('/foto.jpg');
+            background-position: center !important;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+            //padding-top: convEm(70px, $fzSm);
+            //padding-bottom: convEm(100px, $fzSm);
+            width: 100%;
+            height: 90vh;
+            
+        }
+        .titulo {
+            font-family: "Stretch Pro";
+            line-height: 1; 
+            width: 60%;
+            margin: 0 auto;
+            font-size: 64px;
+            text-align: center;
+            color: #fff;
+            background-color: #000;
+            padding: 40px 0px 40px 0px;
+            //margin-bottom: 30px;
+            position: relative;
+            top: -123px;
+        }
+        .conteudo {
+            font-family: 'Montserrat';
+            font-weight: 600;
+            font-size: 36px;
+            background-color: #fff;
+            padding-bottom: 30px;
+        }
+    }
+}

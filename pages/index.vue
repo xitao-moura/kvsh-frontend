@@ -1,5 +1,6 @@
 <template>
   <div>
+    <Carousel/>
     <Store/>
     <Bio/>
     <Tours/>

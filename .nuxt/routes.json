@@ -1,9 +1,23 @@
 [
   {
+    "name": "about",
+    "path": "/about",
+    "component": "/Users/xitaomoura/Documents/Projetos/kvsh2/frontend/pages/about.vue",
+    "chunkName": "pages/about",
+    "_name": "_477f8ff8"
+  },
+  {
+    "name": "tracks",
+    "path": "/tracks",
+    "component": "/Users/xitaomoura/Documents/Projetos/kvsh2/frontend/pages/tracks.vue",
+    "chunkName": "pages/tracks",
+    "_name": "_c15efabe"
+  },
+  {
     "name": "index",
     "path": "/",
-    "component": "/Volumes/Seagate Exp/Pessoal/kvsh/frontend/pages/index.vue",
+    "component": "/Users/xitaomoura/Documents/Projetos/kvsh2/frontend/pages/index.vue",
     "chunkName": "pages/index",
-    "_name": "_6304e060"
+    "_name": "_080fda6e"
   }
 ]
