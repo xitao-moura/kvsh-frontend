@@ -4,7 +4,8 @@
     <Store/>
     <Bio/>
     <Tours/>
-    <Lancamentos/>
+    <!-- <Lancamentos/> -->
+    <Tracks/>
     <Videos/>
     <FacaParte/>
   </div>

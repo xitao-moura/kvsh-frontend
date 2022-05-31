@@ -26,6 +26,9 @@
   "Tours": {
     "description": "Auto imported from components/Tours.vue"
   },
+  "Tracks": {
+    "description": "Auto imported from components/Tracks.vue"
+  },
   "Videos": {
     "description": "Auto imported from components/Videos.vue"
   }

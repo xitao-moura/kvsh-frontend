@@ -15,4 +15,5 @@ You can directly use them in pages and other components without the need to impo
 - `<Sidebar>` | `<sidebar>` (components/Sidebar.vue)
 - `<Store>` | `<store>` (components/Store.vue)
 - `<Tours>` | `<tours>` (components/Tours.vue)
+- `<Tracks>` | `<tracks>` (components/Tracks.vue)
 - `<Videos>` | `<videos>` (components/Videos.vue)

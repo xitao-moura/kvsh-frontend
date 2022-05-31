@@ -7,6 +7,7 @@ export { default as Navbar } from '../../components/Navbar.vue'
 export { default as Sidebar } from '../../components/Sidebar.vue'
 export { default as Store } from '../../components/Store.vue'
 export { default as Tours } from '../../components/Tours.vue'
+export { default as Tracks } from '../../components/Tracks.vue'
 export { default as Videos } from '../../components/Videos.vue'
 
 // nuxt/nuxt.js#8607
