@@ -19,6 +19,7 @@
     "flowtype": "^2.0.0",
     "jquery": "^3.6.0",
     "nuxt": "^2.15.7",
+    "nuxt-facebook-pixel-module": "^1.5.0",
     "swiper": "^5.4.5",
     "vue-awesome-swiper": "^4.1.1",
     "vue-lazy-youtube-video": "^2.3.0",

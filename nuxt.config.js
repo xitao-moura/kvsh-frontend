@@ -65,6 +65,14 @@ export default {
     '@nuxtjs/axios',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
+     // With options
+    ['nuxt-facebook-pixel-module', {
+      /* module options */
+      track: 'PageView',
+      pixelId: '347137966345298',
+      autoPageView: true,
+      disabled: false
+    }],
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios

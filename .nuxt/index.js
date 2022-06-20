@@ -14,6 +14,7 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 import nuxt_plugin_plugin_7517d21f from 'nuxt_plugin_plugin_7517d21f' // Source: ./components/plugin.js (mode: 'all')
 import nuxt_plugin_bootstrapvue_77c56638 from 'nuxt_plugin_bootstrapvue_77c56638' // Source: ./bootstrap-vue.js (mode: 'all')
+import nuxt_plugin_templatespluginba3f4898_24154ca0 from 'nuxt_plugin_templatespluginba3f4898_24154ca0' // Source: ./templates.plugin.ba3f4898.js (mode: 'client')
 import nuxt_plugin_workbox_89b160de from 'nuxt_plugin_workbox_89b160de' // Source: ./workbox.js (mode: 'client')
 import nuxt_plugin_metaplugin_7e8475a4 from 'nuxt_plugin_metaplugin_7e8475a4' // Source: ./pwa/meta.plugin.js (mode: 'all')
 import nuxt_plugin_iconplugin_f9a7c9d0 from 'nuxt_plugin_iconplugin_f9a7c9d0' // Source: ./pwa/icon.plugin.js (mode: 'all')
@@ -190,6 +191,10 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_bootstrapvue_77c56638 === 'function') {
     await nuxt_plugin_bootstrapvue_77c56638(app.context, inject)
+  }
+
+  if (process.client && typeof nuxt_plugin_templatespluginba3f4898_24154ca0 === 'function') {
+    await nuxt_plugin_templatespluginba3f4898_24154ca0(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_workbox_89b160de === 'function') {
