@@ -5,6 +5,7 @@ import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
 const _477f8ff8 = () => interopDefault(import('../pages/about.vue' /* webpackChunkName: "pages/about" */))
+const _6c507c71 = () => interopDefault(import('../pages/linktree.vue' /* webpackChunkName: "pages/linktree" */))
 const _c15efabe = () => interopDefault(import('../pages/tracks.vue' /* webpackChunkName: "pages/tracks" */))
 const _080fda6e = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
 
@@ -23,6 +24,10 @@ export const routerOptions = {
     path: "/about",
     component: _477f8ff8,
     name: "about"
+  }, {
+    path: "/linktree",
+    component: _6c507c71,
+    name: "linktree"
   }, {
     path: "/tracks",
     component: _c15efabe,

@@ -7,6 +7,13 @@
     "_name": "_477f8ff8"
   },
   {
+    "name": "linktree",
+    "path": "/linktree",
+    "component": "/Users/xitaomoura/Documents/Projetos/kvsh2/frontend/pages/linktree.vue",
+    "chunkName": "pages/linktree",
+    "_name": "_6c507c71"
+  },
+  {
     "name": "tracks",
     "path": "/tracks",
     "component": "/Users/xitaomoura/Documents/Projetos/kvsh2/frontend/pages/tracks.vue",

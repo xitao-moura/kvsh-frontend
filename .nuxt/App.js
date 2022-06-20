@@ -13,8 +13,9 @@ import '../node_modules/bootstrap-vue/dist/bootstrap-vue.css'
 import '../assets/sass/main.scss'
 
 import _6f6c098b from '../layouts/default.vue'
+import _c22a66e4 from '../layouts/linktree.vue'
 
-const layouts = { "_default": sanitizeComponent(_6f6c098b) }
+const layouts = { "_default": sanitizeComponent(_6f6c098b),"_linktree": sanitizeComponent(_c22a66e4) }
 
 export default {
   render (h, props) {
