@@ -1,5 +1,5 @@
 {
-  "title": "frontend",
+  "title": "KVSH",
   "meta": [
     {
       "hid": "charset",
@@ -18,7 +18,7 @@
     {
       "hid": "apple-mobile-web-app-title",
       "name": "apple-mobile-web-app-title",
-      "content": "frontend"
+      "content": "KVSH"
     },
     {
       "hid": "og:type",
@@ -30,13 +30,13 @@
       "hid": "og:title",
       "name": "og:title",
       "property": "og:title",
-      "content": "frontend"
+      "content": "KVSH"
     },
     {
       "hid": "og:site_name",
       "name": "og:site_name",
       "property": "og:site_name",
-      "content": "frontend"
+      "content": "KVSH"
     }
   ],
   "link": [
@@ -53,7 +53,7 @@
     },
     {
       "rel": "manifest",
-      "href": "/_nuxt/manifest.c621d42e.json",
+      "href": "/_nuxt/manifest.89f3b43c.json",
       "hid": "manifest"
     }
   ],

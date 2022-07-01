@@ -36,7 +36,7 @@ export default {
     },
     methods: {
         async getSocials(){
-            this.socials = await this.$api.get('linktrees')
+            this.socials = await this.$api.get('linktrees?_sort=created_at:desc')
             this.socials = this.socials.data
             console.log(this.socials)
         }
